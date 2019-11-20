@@ -42,6 +42,7 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'rubocop', require: false
   gem 'rspec-rails'
+  gem 'rspec_junit_formatter'
 end
 
 group :development do
