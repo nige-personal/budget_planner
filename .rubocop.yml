@@ -1,0 +1,8 @@
+AllCops:
+  TargetRubyVersion: 2.5
+  Exclude:
+    - 'Gemfile'
+    - 'Gemfile.lock'
+    - 'config/**/*'
+    - 'db/*'
+    - 'bin/*'
