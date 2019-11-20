@@ -35,6 +35,7 @@ jobs:
             - ./vendor/bundle
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
 
+      - run: ls vendor/bundle/ruby/2.4.0/gems/nio4r-2.5.2/.rubocop.yml
       - run: rubocop
       # Database setup
       - run: bundle exec rake db:create
