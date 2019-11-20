@@ -35,7 +35,6 @@ jobs:
             - ./vendor/bundle
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
 
-      - run: rubocop -v
       - run: gem instal rubocop
       - run: rubocop
       # Database setup
